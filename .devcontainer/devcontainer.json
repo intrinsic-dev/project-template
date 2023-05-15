@@ -1,0 +1,13 @@
+{
+    "name": "intrinsic-codelab",
+    "image": "ghcr.io/intrinsic-dev/intrinsic-dev-img:codelab",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"intrinsic.defaultSdkRepository": "https://github.com/intrinsic-dev/intrinsic_sdks",
+				"intrinsic.googleCloud.projectList": ["xfa-curious-codelab"],
+				"intrinsic.googleCloud.assetRegistryProject": "xfa-curious-codelab"
+			}
+		}
+	}
+}
