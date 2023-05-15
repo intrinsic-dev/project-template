@@ -8,6 +8,15 @@
 				"intrinsic.googleCloud.projectList": ["xfa-curious-codelab"],
 				"intrinsic.googleCloud.assetRegistryProject": "xfa-curious-codelab"
 			}
-		}
+		},
+		"codespaces": {
+			"repositories": {
+			  "intrinsic-dev/intrinsic_sdks": {
+				"permissions": {
+				  "contents": "read"
+				}
+			  }
+			}
+		  }
 	}
 }
