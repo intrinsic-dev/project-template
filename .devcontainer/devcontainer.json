@@ -12,9 +12,7 @@
 		"codespaces": {
 			"repositories": {
 			  "intrinsic-dev/intrinsic_sdks": {
-				"permissions": {
-				  "contents": "read"
-				}
+				"permissions": "read-all"
 			  }
 			}
 		  }
