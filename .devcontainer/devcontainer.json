@@ -16,5 +16,6 @@
 			  }
 			}
 		  }
-	}
+	},
+	"postStartCommand": "echo \"$BAZEL_CACHE_SA\" > /workspaces/.bazel-cache-access.json && chmod +r /workspaces/.bazel-cache-access.json" 
 }
