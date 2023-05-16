@@ -4,18 +4,11 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
-				"intrinsic.defaultSdkRepository": "https://github.com/intrinsic-dev/intrinsic_sdks",
+				"intrinsic.defaultSdkRepository": "https://intrinsic.googlesource.com/intrinsic_sdks",
 				"intrinsic.googleCloud.projectList": ["xfa-curious-codelab"],
 				"intrinsic.googleCloud.assetRegistryProject": "xfa-curious-codelab"
 			}
-		},
-		"codespaces": {
-			"repositories": {
-			  "intrinsic-dev/intrinsic_sdks": {
-				"permissions": "read-all"
-			  }
-			}
-		  }
+		}
 	},
 	"postStartCommand": "echo \"$BAZEL_CACHE_SA\" > /workspaces/.bazel-cache-access.json && chmod +r /workspaces/.bazel-cache-access.json" 
 }
