@@ -1,7 +1,7 @@
 # Intrinsic Flowstate project
 
 This template contains basic setup for Intrinsic Flowstate project.
-It is optimized for codelab experience, but feel free to customize
+It is optimized for private beta experience, but feel free to customize
 it in your own way.
 
 We strive to provide comprehensive environment with our dev container
@@ -12,10 +12,9 @@ see [official list](https://containers.dev/features) of available features.
 
 ## Authorization
 
-To authorize your dev environment please run following commands in your
+To authorize your dev environment please run following command in your
 VS Code terminal:
 
 ```shell
-gcloud auth login
 inctl auth login
 ```

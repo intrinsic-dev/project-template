@@ -1,14 +1,26 @@
 {
-    "name": "intrinsic-codelab",
+    "name": "intrinsic-private-beta",
     "image": "ghcr.io/intrinsic-dev/intrinsic-dev-img:codelab",
+	"runArgs": ["--network=host"],
 	"customizations": {
 		"vscode": {
 			"settings": {
 				"intrinsic.defaultSdkRepository": "https://intrinsic.googlesource.com/intrinsic_sdks",
 				"intrinsic.googleCloud.projectList": ["xfa-curious-codelab"],
-				"intrinsic.googleCloud.assetRegistryProject": "xfa-curious-codelab"
+				"intrinsic.containerRegistry.url": "ghcr.io/intrinsic-dev"
 			}
-		}
+		},
+		"codespaces": {
+			"repositories": {
+			  "intrinsic-dev/intrinsic_sdks": {
+				"permissions": {
+				  "contents": "read"
+				}
+			  }
+			}
+		  }
 	},
-	"postStartCommand": "echo \"$BAZEL_CACHE_SA\" > /workspaces/.bazel-cache-access.json && chmod +r /workspaces/.bazel-cache-access.json" 
+	"containerEnv": {
+        "INTRINSIC_PROJECT": "xfa-curious-codelab"
+    }
 }
