@@ -5,7 +5,7 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
-				"intrinsic.defaultSdkRepository": "https://intrinsic.googlesource.com/intrinsic_sdks",
+				"intrinsic.defaultSdkRepository": "https://github.com/intrinsic-dev/intrinsic_sdks",
 				"intrinsic.googleCloud.projectList": ["xfa-curious-codelab"],
 				"intrinsic.containerRegistry.url": "ghcr.io/intrinsic-dev"
 			}

@@ -5,7 +5,7 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 git_repository(
     name = "ai_intrinsic_sdks",
     remote = "https://github.com/intrinsic-dev/intrinsic_sdks",
-    tag = "intrinsic.platform.20230612.RC11",
+    tag = "intrinsic.platform.20230717.RC00",
 )
 
 # Load shared dependencies for Intrinsic SDKs. None of these is optional.
