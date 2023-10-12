@@ -1,7 +1,7 @@
 # Intrinsic Flowstate project
 
 This template contains basic setup for Intrinsic Flowstate project.
-It provides configuration for dev container, which Flowstate development
+It provides configuration for a dev container, which Flowstate development
 experience is centered around. For more information about developing
 with Flowstate visit [Intrinsic documentation](https://developers.intrinsic.ai/)
 website.
