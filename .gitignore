@@ -1,1 +1,3 @@
 bazel-*
+# A custom dotenv filename used in the devcontainer
+.pybazel.env
