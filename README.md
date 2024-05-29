@@ -1,6 +1,6 @@
 # Intrinsic dev container project template
 
-This template contains a basic dev container project setup for using the [Intrinsic SDK](github.com/intrinsic-dev/intrinsic_sdks).
+This template contains a basic dev container project setup for using the [Intrinsic SDK](github.com/intrinsic-dev/sdk).
 
 It is currently optimized for the beta of Intrinsic Flowstate.
 Additional features can be added to the dev container definition from the [official list](containers.dev/features) of available third-party features.
