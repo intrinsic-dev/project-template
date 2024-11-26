@@ -5,7 +5,7 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
-				"intrinsic.defaultSdkRepository": "https://github.com/intrinsic-dev/sdk.git"
+				"intrinsic.defaultSdkRepository": "https://github.com/intrinsic-ai/sdk.git"
 			}
 		}
 	}
